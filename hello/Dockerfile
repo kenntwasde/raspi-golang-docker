@@ -1,1 +1,1 @@
-FROM google/golang-runtime
+FROM kenntwasde/raspi-golang-runtime
