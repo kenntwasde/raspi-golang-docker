@@ -3,5 +3,7 @@
  * fork from https://github.com/GoogleCloudPlatform/golang-docker 
  * does not use binary-distribution (not available for arm?)
  * build from source
- * uses resin/rpi-raspbian:wheezy as docker base image
+ * uses [resin/rpi-raspbian:wheezy](https://registry.hub.docker.com/u/resin/rpi-raspbian/) as docker base image
+ * build on [HypriotOS])(http://blog.hypriot.com)
+ * build with Docker version 1.5.0, build a8a31ef
  * produced on a Raspberry PI 2 (quadcore, 900Mhz, armv7l)
