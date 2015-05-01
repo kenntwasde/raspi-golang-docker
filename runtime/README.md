@@ -1,4 +1,4 @@
-# google/golang-runtime
+# kenntwasde/raspi-golang-runtime
 
 [`google/golang-runtime`](https://index.docker.io/u/google/golang-runtime) is a [docker](https://docker.io) base image that makes it easy to dockerize standard [golang](http://golang.org) applications.
 
@@ -10,7 +10,7 @@ It is based on [`google/golang`](https://index.docker.io/u/google/golang) base i
 
 - Create a Dockerfile in your golang application directory with the following content:
 
-        FROM google/golang-runtime
+        FROM kenntwasde/raspi-golang-runtime
 
 - Build your container image by running the following command in your application directory:
 

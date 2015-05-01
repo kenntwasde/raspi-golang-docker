@@ -1,4 +1,4 @@
-# google/golang
+# kenntwasde/raspi-golang
 
 [`kenntwasde/raspi-golang`](https://index.docker.io/u/kenntwasde/raspi-golang) is a [docker](https://docker.io) base image that bundles the latest version of [golang](http://golang.org) installed from [golang.org](http://golang.org/doc/install/).
 
@@ -16,7 +16,7 @@ It serves as a base for the [`google/golang-runtime`](https://index.docker.io/u/
 
 - Create a Dockerfile in your golang application directory with the following content:
 
-        FROM google/golang
+        FROM kenntwasde/raspi-golang
 
         WORKDIR /gopath/src/app
         ADD . /gopath/src/app/
