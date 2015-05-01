@@ -1,4 +1,4 @@
-FROM kenntwasde/raspi-golang:1.3-linux-armv7l
+FROM kenntwasde/raspi-golang:1.4-linux-armv7l
 
 ADD go-build /bin/go-build
 ADD go-run /bin/go-run

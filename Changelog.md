@@ -1,3 +1,5 @@
+## 1.4-linux-armv7l-0.0.1 (release date: 2015-05-01)
+ * uses golang V1.4, initial verion for raspberry pi, build from source
 ## 1.3-linux-armv7l-0.0.1 (release date: 2015-05-01)
  * uses golang V1.3 (not V1.4)
  * fork from [https://github.com/GoogleCloudPlatform/golang-docker](https://github.com/GoogleCloudPlatform/golang-docker)

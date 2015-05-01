@@ -1,7 +1,7 @@
 NAME = kenntwasde/raspi-golang-runtime
 #DEBIAN_VER = jessie
 DEBIAN_VER = wheezy
-GO_VER = 1.3
+GO_VER = 1.4
 ARCH=$(shell uname -m)
 BUILDVER = $(shell cat ../buildversion)
 MAINVER = $(GO_VER)-linux-$(ARCH)

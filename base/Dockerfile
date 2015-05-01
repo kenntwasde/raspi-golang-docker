@@ -11,7 +11,7 @@ RUN apt-get update -y && \
 	mercurial
 #RUN mkdir /goroot && \
 #	curl https://storage.googleapis.com/golang/go1.4.linux-amd64.tar.gz | tar xvzf - -C /goroot --strip-components=1
-ENV GOLANG_VERSION 1.3
+ENV GOLANG_VERSION 1.4
 
 RUN mkdir /goroot && \
 	curl -sSL http://golang.org/dl/go$GOLANG_VERSION.src.tar.gz \
